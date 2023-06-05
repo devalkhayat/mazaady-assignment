@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".features.auctionDetails.fragments.AuctionDetailsFragment">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include android:id="@+id/includeDetailsHeader" layout="@layout/include_auction_details_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/includeDetailsInfo" layout="@layout/include_auction_details_info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/includeDetailsBidders" layout="@layout/include_auction_details_bidders" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/includeDetailsSeller" layout="@layout/include_auction_details_seller" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/includeDetailsSimilarHeader" layout="@layout/include_details_similar_auctions" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/includeDetailsFooter" layout="@layout/include_auction_details_footer" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.core.widget.NestedScrollView>

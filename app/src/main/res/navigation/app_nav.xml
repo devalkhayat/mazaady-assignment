@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/choosingFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mazaady.app.features.addProduct.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/popupListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/popupListFragment"
+        android:name="com.mazaady.app.features.addProduct.fragments.PopupListFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_popuplist" >
+
+        <argument
+            android:name="operationType"
+            app:argType="com.mazaady.app.util.enums.OperationTypes" />
+        <argument
+            android:name="onSelectedEvent"
+            app:argType="com.mazaady.app.util.eventListners.RecycleViewEventListener" />
+        <argument
+            android:name="parentID"
+            app:argType="integer" />
+    </dialog>
+    <dialog
+        android:id="@+id/resultFragment"
+        android:name="com.mazaady.app.features.addProduct.fragments.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="data"
+            app:argType="com.mazaady.app.util.models.SelectedData" />
+    </dialog>
+    <fragment
+        android:id="@+id/choosingFragment"
+        android:name="com.mazaady.app.features.choosing.fragments.ChoosingFragment"
+        android:label="fragment_choosing"
+        tools:layout="@layout/fragment_choosing" >
+        <action
+            android:id="@+id/action_choosingFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_choosingFragment_to_detailsFragment"
+            app:destination="@id/auctionDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/auctionDetailsFragment"
+        android:name="com.mazaady.app.features.auctionDetails.fragments.AuctionDetailsFragment"
+        android:label="fragment_auction_details"
+        tools:layout="@layout/fragment_auction_details" />
+</navigation>

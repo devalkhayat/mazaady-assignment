@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="header">
+        <item name="android:textSize">@dimen/header_fontsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="header_small">
+        <item name="android:textSize">@dimen/header_small_fontsize</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="item_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+
+
+
+
+    <style name="label">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+    <style name="label_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+    <style name="label_yellow_bold">
+        <item name="android:textColor">@color/app_yellow</item>
+        <item name="android:textSize">@dimen/label_large_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_yellow_normal">
+        <item name="android:textColor">@color/app_yellow</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_medium</item>
+    </style>
+    <style name="label_gray_normal">
+        <item name="android:textColor">@color/app_gray</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_medium</item>
+    </style>
+    <style name="label_violet_bold">
+        <item name="android:textColor">@color/app_violet</item>
+        <item name="android:textSize">@dimen/label_large_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_violet_bold_small">
+        <item name="android:textColor">@color/app_violet</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_violet_normal">
+        <item name="android:textColor">@color/app_violet</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_medium</item>
+    </style>
+    <style name="label_black_normal">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+    <style name="label_black_bold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_large_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_black_bold_small">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_red_bold">
+        <item name="android:textColor">@color/app_red</item>
+        <item name="android:textSize">@dimen/label_large_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_red_bold_small">
+        <item name="android:textColor">@color/app_red</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_orange_bold">
+        <item name="android:textColor">@color/app_orange</item>
+        <item name="android:textSize">@dimen/label_large_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+    </style>
+    <style name="label_orange_normal">
+        <item name="android:textColor">@color/app_orange</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+
+    <style name="input_label">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+    <style name="input_value">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+    </style>
+    <style name="input_edit">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">@font/tajawal_regular</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+
+    <style name="default_button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/label_fontsize</item>
+        <item name="android:fontFamily">@font/tajawal_bold</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="red_button" parent="default_button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@drawable/bg_red_button_gradiant</item>
+    </style>
+    <style name="red_light_button" parent="default_button">
+        <item name="android:textColor">@color/app_red</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:backgroundTint">@color/app_red_light</item>
+    </style>
+
+    <style name="customCardview" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="BottomSheetDialogThemeNoFloating" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/app_yellow</item>
+        <item name="colorControlActivated">@color/app_yellow</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.1</item>
+    </style>
+
+
+
+
+
+
+
+
+</resources>

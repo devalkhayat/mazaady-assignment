@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="mainHeader"> محمد الخياط</string>
+    <string name="addProduct">إضافة منتج</string>
+    <string name="main_category_input_title">التصنيفات الرئيسيه</string>
+    <string name="main_category_input_hint">إختر التصنيف</string>
+    <string name="sub_category_input_title">التصنيفات الفرعيه</string>
+    <string name="sub_category_input_hint">إختر التصنيف الفرعي</string>
+    <string name="input_label_search">بحث</string>
+    <string name="btnShowDataTitle">عرض البيانات</string>
+    <string name="btnOpenDetails">فتح شاشة التفاصيل</string>
+    <string name="btnOpenAddProduct">فتح شاشة إضافة منتج</string>
+    <string name="other">أخرى</string>
+
+    <string name="auction_start_after">المزاد يبدأ بعد</string>
+    <string name="auction_start_after_day">يوم</string>
+    <string name="auction_start_after_hour">ساعة</string>
+    <string name="auction_start_after_minute">دقيقة</string>
+    <string name="auction_date">بتاريخ</string>
+    <string name="auction_name">اسم المزاد</string>
+    <string name="auction_more_details">تفاصيل المزاد</string>
+    <string name="auction_more_rate">تقييم المزاد</string>
+    <string name="auction_current_value">القيمة الحالية للمزاد</string>
+    <string name="auction_current_value_after_tax">القيمة الحالية بعد الضريبة</string>
+    <string name="auction_price">سعر الشراء الفوري</string>
+    <string name="auction_buy_now">شراء الان</string>
+    <string name="auction_cancel">انسحاب</string>
+   <!-- bidders-->
+    <string name="auction_bidders">المزايدون</string>
+    <string name="auction_show_all">عرض الكل</string>
+    <string name="auction_seller">البائع</string>
+    <string name="auction_products">منتجات</string>
+    <!-- similar products-->
+    <string name="auction_similar_products">منتجات متشابهه</string>
+    <string name="auction_direct_auction">مزاد مباشر</string>
+    <string name="auction_product_name">سيارة سريعة بى ام دابليو تصنيع  2021 حالته جديدة</string>
+    <string name="auction_beginning">بداية المزاد</string>
+    <string name="auction_currency">ريال</string>
+    <string name="auction_begin_after">يبدأ بعد</string>
+
+    <!-- footer-->
+    <string name="auction_write_amount">اكتب المبلغ</string>
+
+
+</resources>

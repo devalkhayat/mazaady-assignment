@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_fontsize">14sp</dimen>
+    <dimen name="label_large_fontsize">22sp</dimen>
+    <dimen name="header_fontsize">22sp</dimen>
+    <dimen name="header_small_fontsize">18sp</dimen>
+
+    <dimen name="nav_icon_height_width">32dp</dimen>
+</resources>
